@@ -1,168 +1,113 @@
-created_by: IBM
+created_by: IBM Korea CE Team
 seed_examples:
-- answer: 'If you have one bun and need to share it among 7 kids without splitting
-    it, each child would receive 1/7 of the bun. So the split fraction would be 1/7.
+- answer: '7명의 아이들에게 줄 빵을 나누어야 하고, 빵을 쪼개지 않고 나눠야 한다면, 각 아이는 빵의 1/7을 받게 됩니다. 따라서 분할 비율은 1/7입니다.
 
     '
-  question: 'i have 7 kids and i have only one bun and i need to share it without
-    splitting, tell me the split fraction
+  question: '저는 7명의 아이가 있고 빵이 하나뿐인데, 빵을 쪼개지 않고 나누어야 합니다. 나누는 비율을 알려주세요.
 
     '
-- answer: 'The doctor instructs you to take one pill every half hour. So, you would
-    take the first pill immediately, the second pill after 30 minutes, and the third
-    pill after another 30 minutes, totaling one hour. After one hour, all three pills
-    would have been consumed.
+- answer: '의사는 30분마다 한 알씩 약을 복용하라고 지시했습니다. 따라서 첫 번째 약을 바로 복용하고, 30분 후에 두 번째 약을 복용하고, 다시 30분 후에 세 번째 약을 복용하여 총 1시간 동안 모든 약을 복용하게 됩니다.
 
     '
-  question: If a doctor gives you three pills and tells you to take one pill every
-    half hour, how long would the pills last?
-- answer: 'The answer to this question is still 5 minutes.
+  question: 의사가 세 알의 약을 주고 30분마다 한 알씩 복용하라고 했다면, 약을 몇시간 동안 복용해야 하나요?
+- answer: '이 질문의 답은 여전히 5분입니다.
 
-    The rate at which the widgets are produced remains constant regardless of the
-    number of machines. Each machine produces one widget in 5 minutes, so whether
-    there are 5 machines or 100 machines, it would still take 5 minutes to produce
-    100 widgets.
+    위젯 생산 속도는 기계의 수에 관계없이 일정합니다. 각 기계는 5분에 하나의 위젯을 생산하므로, 기계가 5대이든 100대이든 100개의 위젯을 생산하는 데에는 5분이 걸립니다.
 
     '
-  question: 'If it takes 5 machines 5 minutes to make 5 widgets, how long would it
-    take 100 machines to make 100 widgets?
+  question: '5대의 기계가 5분 동안 5개의 위젯을 만든다면, 100대의 기계가 100개의 위젯을 만드는 데는 얼마나 걸릴까요?
 
     '
-- answer: 'The odd one out is Moon.  All of the others are planets from the solar
-    system, but Moon is a satillite that orbits around the Earth.
+- answer: '이질적인 것은 달입니다. 다른 모든 것들은 태양계의 행성이지만, 달은 지구를 공전하는 위성입니다.
 
     '
-  question: 'Which of the following is the odd one out?
+  question: '다음 중 이질적인 것은 무엇입니까?
 
-    A) Earth
+    A) 지구
 
-    B) Mars
+    B) 화성
 
-    C) Jupiter
+    C) 목성
 
-    D) Moon
-
-    '
-- answer: "A is D's aunt. \nD is the brother of E\nE is the daughter of B, making\
-    \ D the son of B\nB is the sister of A, making A the aunt of both D and E. \n"
-  question: A, B and C are sisters, D is the brother of E and E is the daughter of
-    B. How is A related to D ?
-- answer: '6\. The series is dividing the the number in half at each step
+    D) 달
 
     '
-  question: 'Which number should come next in the series, 48, 24, 12, ......?
+- answer: "A는 D의 이모입니다. \nD는 E의 형제입니다\nE는 B의 딸이므로 D는 B의 아들입니다\nB는 A의 자매이므로 A는 D와 E의 이모입니다. \n"
+  question: A, B, C는 자매이고, D는 E의 형제이며 E는 B의 딸입니다. A는 D와 어떤 관계입니까?
+- answer: '6. 이 수열은 각 단계에서 수를 반으로 나눕니다
 
     '
-- answer: 'Sam doesn''t run   faster than Jane as Jane runs faster than Joe and Joe
-    runs faster than Sam.
+  question: '다음 수열에서 다음에 올 숫자는 무엇입니까? 48, 24, 12, ......?
 
     '
-  question: 'Jane runs faster than Joe. Joe runs faster than Sam. Does Sam run faster
-    than Jane?
+- answer: 'Sam은 Jane보다 빠르지 않습니다. 왜냐하면 Jane이 Joe보다 빠르고 Joe가 Sam보다 빠르기 때문입니다.
 
     '
-- answer: 'When drying clothes outside, several factors can affect the drying time,
-    such as temperature, humidity, wind, and the number of shirts.
-
-    If there''s sufficient space for drying shirts in parallel, drying 20 shirts could
-    take as long as drying 5 shirts so 4 hours. However, when there''s only sufficient
-    space for 5 shirts, you''ll need to dry the shirts in batches so considering that
-    you need to dry 20 shirts, you would need 4 batches bringing the total time to
-    16 hours.
-
+  question: 'Jane이 Joe보다 빠릅니다. Joe는 Sam보다 빠릅니다. Sam은 Jane보다 빠르나요?
 
     '
-  question: You're an expert in house chores. It takes 4 hours to dry 5 shirts in
-    open air. How long does it take to dry 20 shirts?
-- answer: 'Marc thinks the ball is in the basket as that''s where it was when he left
-    the room. John, on the other hand, thinks the ball is in the cupboard where he
-    put it before he left the room.
+- answer: '옷을 밖에서 말리는 경우, 온도, 습도, 바람, 그리고 셔츠의 수와 같은 여러 요인이 건조 시간에 영향을 미칠 수 있습니다.
+
+    셔츠를 병렬로 충분히 말릴 수 있는 공간이 있다면, 20개의 셔츠를 말리는 데 5개의 셔츠를 말리는 것만큼 오래 걸릴 수 있으므로 4시간입니다. 그러나 5개의 셔츠만 말릴 수 있는 공간이 있을 경우, 셔츠를 여러 번에 걸쳐 말려야 하므로 20개의 셔츠를 말리는 데 필요한 시간은 총 16시간이 됩니다.
 
     '
-  question: 'Marc and John are together in a room with a ball, a basket and a cupboard.
-    Marc puts the ball in the basket and leaves the room. John takes the ball and
-    puts in the cupboard and leaves the room. When they return in the evening, they
-    don''t know what happened to the ball after they''ve left the room. Where do they
-    each think the ball is? Explain your reasoning step by step.
-
-
+  question: 집안일 전문가인 당신, 맑은 날에 5개의 셔츠를 말리는 데 4시간이 걸립니다. 20개의 셔츠를 말리는 데는 얼마나 걸릴까요?
+- answer: 'Marc는 방을 떠날 때 공이 바구니에 있었다고 생각합니다. 반면에 John은 자신이 방을 떠나기 전에 공을 찬장에 넣었으므로 그곳에 공이 있다고 생각합니다.
 
     '
-- answer: 'Based on the information provided, the names of Mike''s mom''s four kids
-    are Luis, Drake, Matilda, and Mike.   Therefore the name of the 4th kid is Mike.
+  question: 'Marc와 John이 공, 바구니, 찬장이 있는 방에 함께 있습니다. Marc는 공을 바구니에 넣고 방을 떠났습니다. John은 공을 찬장에 넣고 방을 떠났습니다. 저녁에 돌아왔을 때, 그들은 방을 떠난 후에 공에 무슨 일이 일어났는지 모릅니다. 그들 각각은 공이 어디에 있는지 어떻게 생각할까요? 단계별로 설명하세요.
 
     '
-  question: 'Mike''s mom has 4 kids. 3 of them are Luis, Drake and Matilda. What is
-    the name of the 4th kid?
+- answer: '제공된 정보에 따르면 Mike의 엄마의 네 자녀의 이름은 Luis, Drake, Matilda, 그리고 Mike입니다. 따라서 네 번째 아이의 이름은 Mike입니다.
 
     '
-- answer: 'Let''s analyze the situation step by step:
-
-
-    1\. We know that 4 cars traveled from San Francisco to San Jose, which is 41.60
-    miles apart.
-
-    2\. Each car travels at a similar speed. Having more cars on the road will not
-    reduce the time that any one car takes to drive from San Francisco to San Jose.
-
-    3\. Therefore, the time it takes for each car to travel the distance is same,
-    1 hour.
+  question: 'Mike의 엄마는 네 명의 자녀가 있습니다. 그 중 세 명은 Luis, Drake, 그리고 Matilda입니다. 네 번째 아이의 이름은 무엇입니까?
 
     '
-  question: 4 cars left San Fransisco at 12pm and they reached San Jose, 41.60 mi
-    apart, at 1pm. How much time will be needed for 8 cars? Consider they have similar
-    speed.
-- answer: 'Based on the information provided, we know that Jane has one car and that
-    it is in the driveway when she is at home. However, when Jane is at her office,
-    we know that she used her car for commuting. This implies that the car is not
-    in the driveway. As Jane only has 1 car, then there must be no cars in Jane''s
-    driveway now.  Therefore the answer is 0.
+- answer: '상황을 단계별로 분석해 봅시다:
+
+    1. 샌프란시스코에서 샌호세까지, 41.60마일 떨어져 있다는 것을 알고 있습니다.
+
+    2. 각 차량은 비슷한 속도로 이동합니다. 도로 위에 더 많은 차량이 있다고 해서 어느 한 차량이 샌프란시스코에서 샌호세까지 운전하는 데 걸리는 시간이 줄어드는 것은 아닙니다.
+
+    3. 따라서 각 차량이 거리를 이동하는 데 필요한 시간은 동일하며, 그 시간은 1시간입니다.
 
     '
-  question: 'Jane has 1 car. When she is at home then her car is in the driveway.
-    Jane is now at her office. Can you find the  number of car in her driveway now?
+  question: 샌프란시스코에서 오후 12시에 출발한 4대의 자동차가 오후 1시에 41.60마일 떨어진 샌호세에 도착했습니다. 8대의 자동차가 필요한 시간은 얼마나 될까요? 비슷한 속도를 고려하세요.
+- answer: '제공된 정보를 바탕으로, Jane은 한 대의 차를 가지고 있으며 그녀가 집에 있을 때는 그 차가 진입로에 있습니다. 그러나 Jane이 사무실에 있을 때는 그녀가 출퇴근용으로 차를 사용했다는 것을 알 수 있습니다. 이는 차가 진입로에 없다는 것을 의미합니다. Jane이 한 대의 차만 가지고 있으므로, 지금 Jane의 진입로에는 차가 없습니다. 따라서 답은 0입니다.
 
     '
-- answer: 'C (The student''s marks is between 40 and 60.)
+  question: 'Jane은 차 한 대를 가지고 있습니다. 그녀가 집에 있을 때는 그 차가 진입로에 있습니다. Jane은 지금 사무실에 있습니다. 지금 그녀의 진입로에 있는 차의 수를 찾을 수 있나요?
 
     '
-  question: '"You are a teacher and need to give grade to the students. The grades
-    are defined as follows:\n\nFor marks less than 40, grade is F.\nFor marks between
-    40 and 60, grade is C.\nFor marks between 60 and 80, grade is B.\nFor marks above
-    80, grade is A.\n\nYou will be given a student''s marks as input and you need
-    to output the grade.\n\nMarks : 47\nGrade:\u00a0\n"
+- answer: 'C (학생의 점수는 40과 60 사이입니다.)
 
     '
-- answer: 'Intermediate
+  question: '"당신은 선생님이고 학생들에게 성적을 매겨야 합니다. 성적은 다음과 같이 정의됩니다:\n\n40점 미만인 경우, 성적은 F입니다.\n40점에서 60점 사이인 경우, 성적은 C입니다.\n60점에서 80점 사이인 경우, 성적은 B입니다.\n80점 이상인 경우, 성적은 A입니다.\n\n입력으로 주어진 학생의 점수: 47\n성적:\u00a0\n"
 
     '
-  question: 'You are a fitness trainer designing workout plans for clients. Based
-    on number of hours a client exercised in a week, determine and output the appropriate
-    fitness level:
-
-
-    For less than 3 hours, fitness level is Beginner.
-
-    For 3 to 5 hours, fitness level is Intermediate.
-
-    For 5 to 7 hours, fitness level is Advanced.
-
-    For more than 7 hours, fitness level is Expert.
-
-
-    Weekly exercise hours: 4
-
-    Fitness level: '
-- answer: 'Enthusiast
+- answer: '중급
 
     '
-  question: "As a travel guide, you want to assess the experiences of tourists. Based\
-    \ on the number of landmarks visited by a tourist in a city, determine the travel\
-    \ exploration level using the following guidelines: \n\nFor 0 to 2 landmarks,\
-    \ exploration level is Casual. \nFor 3 to 5 landmarks, exploration level is Enthusiast.\
-    \ \nFor 6 to 8 landmarks, exploration level is Adventurer. \nFor more than 8 landmarks,\
-    \ exploration level is Explorer. \n\nNumber of landmarks visited: 4 \nExploration\
-    \ level:\_\n"
-task_description: 'To teach a language model about logical reasoning
+  question: '당신은 피트니스 트레이너로 고객을 위한 운동 계획을 설계하고 있습니다. 고객이 일주일 동안 운동한 시간 수에 따라 적절한 피트니스 수준을 결정하고 출력하세요:
+
+
+    3시간 미만인 경우, 피트니스 수준은 초보자입니다.
+
+    3시간에서 5시간 사이인 경우, 피트니스 수준은 중급입니다.
+
+    5시간에서 7시간 사이인 경우, 피트니스 수준은 고급입니다.
+
+    7시간 이상인 경우, 피트니스 수준은 전문가입니다.
+
+
+    일주일 운동 시간: 4시간
+
+    피트니스 수준: '
+- answer: '열정
+
+    '
+  question: "여행 가이드로서, 당신은 관광객의 경험을 평가하고자 합니다. 도시에서 관광객이 방문한 랜드마크 수에 따라 다음 지침을 사용하여 여행 탐험 수준을 결정하세요: \n\n0개에서 2개의 랜드마크를 방문한 경우, 탐험 수준은 캐주얼입니다. \n3개에서 5개의 랜드마크를 방문한 경우, 탐험 수준은 열정입니다.\ \n6개에서 8개의 랜드마크를 방문한 경우, 탐험 수준은 모험가입니다. \n8개 이상의 랜드마크를 방문한 경우, 탐험 수준은 탐험가입니다. \n\n방문한 랜드마크 수: 4 \n탐험 수준:\_\n"
+task_description: '논리적 추론에 대해 언어 모델을 가르치기
 
   '

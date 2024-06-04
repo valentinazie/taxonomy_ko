@@ -1,46 +1,45 @@
-created_by: IBM
+created_by: IBM Korea CE Team
 seed_examples:
-- answer: 'C. important. Remaining are synonyms of each other.
+- answer: 'C. 중요함. 나머지는 서로 동의어입니다.
 
     '
-  question: 'Which word is the odd man out? Also give an explanation why
+  question: '다음 중 이질적인 단어는 무엇입니까? 그 이유를 설명하세요
 
-    A. trivial
+    A. 사소한
 
-    B. unimportant
+    B. 중요하지 않은
 
-    C. important
+    C. 중요한
 
-    D. insignificant
-
-    '
-- answer: 'D. Book. Rest are all parts of a book.
+    D. 하찮은
 
     '
-  question: 'Which word does NOT belong with the others? Also give an explanation
-    why
-
-    A. index
-
-    B. glossary
-
-    C. chapter
-
-    D. book'
-- answer: 'A. hate. Rest are positive emotions.
+- answer: 'D. 책. 나머지는 모두 책 내용의 일부분입니다.
 
     '
-  question: 'Which word is the odd man out? Also give an explanation why
+  question: '다른 것들과 동일한 성격이 아닌 단어는 무엇입니까? 그 이유를 설명하세요
 
-    A. hate
+    A. 색인
 
-    B. fondness
+    B. 용어집
 
-    C. liking
+    C. 장
 
-    D. attachment
+    D. 책'
+- answer: 'A. 증오. 나머지는 모두 긍정적인 감정입니다.
 
     '
-task_description: 'To teach a language model about logical odd-one-out.
+  question: '다음 중 이질적인 단어는 무엇입니까? 그 이유를 설명하세요
+
+    A. 증오
+
+    B. 애정
+
+    C. 좋아함
+
+    D. 애착
+
+    '
+task_description: '논리적 이질성에 대해 언어 모델을 가르치기
 
   '

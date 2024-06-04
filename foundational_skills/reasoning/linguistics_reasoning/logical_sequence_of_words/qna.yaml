@@ -1,62 +1,62 @@
-created_by: IBM
+created_by: IBM Korea CE Team
 seed_examples:
-- answer: 'Here is a meaningful sequence:
+- answer: '유의미하게 순서를 재정렬했습니다:
 
-    1. Crime
+    1. 범죄
 
-    2. Police
+    2. 경찰
 
-    3. Judge
+    3. 판사
 
-    4. Judgment
+    4. 판정
 
-    5. Punishment
-
-    '
-  question: "Arrange the words given below in a meaningful sequence.\n1.Police\_ 2.\
-    \ Punishment\_ 3. Crime\_ 4. Judge\_ 5. Judgment\n"
-- answer: 'Here is a meaningful sequence:
-
-    1. Infection
-
-    2. Doctor
-
-    3. Consultation
-
-    4. Treatment
-
-    5. Recovery
+    5. 처벌
 
     '
-  question: 'Arrange the following words in a meaningful sequence.
+  question: "주어진 단어가 유의미해지도록 순서를 정렬하시오.\n1.경찰\_ 2.\
+    \ 처벌\_ 3. 범죄\_ 4. 판사\_ 5. 판정\n"
+- answer: '유의미하게 순서를 재정렬했습니다:
 
-    1. Infection
+    1. 감염
 
-    2. Consultation
+    2. 의사
 
-    3. Doctor
+    3. 진단
 
-    4. Treatment
+    4. 치료
 
-    5. Recovery'
-- answer: 'Here is a meaningful sequence:
-
-    1. Letters
-
-    2. Word
-
-    3. Phrase
-
-    4. Sentence
-
-    5. Paragraph
+    5. 회복
 
     '
-  question: 'Arrange the words given below in a meaningful sequence.
+  question: '주어진 단어가 유의미해지도록 순서를 정렬하시오.
 
-    a.Word b.Paragraph c.Sentence d.Letters e.Phrase
+    1. 감염
+
+    2. 진단
+
+    3. 의사
+
+    4. 치료
+
+    5. 회복'
+- answer: '유의미하게 순서를 재정렬했습니다:
+
+    1. 음소
+
+    2. 단어
+
+    3. 구
+
+    4. 문장
+
+    5. 단락
 
     '
-task_description: 'To teach a language model about the logical sequence of words
+  question: '주어진 단어가 유의미해지도록 순서를 정렬하시오.
+
+    a.단어 b.단락 c.문장 d.음소 e.구
+
+    '
+task_description: '언어 모델에게 논리적인 단어의 정렬을 가르치기
 
   '

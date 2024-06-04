@@ -1,68 +1,64 @@
-created_by: IBM
+created_by: IBM Korea CE Team
 seed_examples:
-- answer: 'Hello! I''m here to help you understand the order of arrival at a party.
-    Let''s analyze the situation step by step:
+- answer: '안녕하세요! 저는 파티에 도착한 사람들의 순서를 이해하는데 도움을 주랴고 합니다.
+    순차적으로 상황을 분석해볼게요:
 
 
-    1. Joe reached first (before you).
+    1. Joe는 제일 일찍 파티에 도착했습니다. (당신보다 먼저).
 
-    2. You arrived next.
+    2. 당신은 그 다음에 도착했습니다.
 
-    3. David arrived after you.
+    3. David는 당신 다음으로 도착했습니다.
 
-    4. John reached last (after David).
+    4. John은 마지막으로 도착했습니다. (David 다음으로).
 
 
-    Based on this information, Joe was the first one to arrive at the party, followed
-    by you, then David, and finally John.
-
-    '
-  question: 'Consider I went to a party. I reached before John. David arrived after.
-    Joe reached before me. John arrived after David. Who reached first and who reached
-    last?
+    해당 정보로 미루어보아, Joe는 파티에 가장 먼저 도착했습니다. 그 이후에 당신이 도착했고,
+    그 이후에 David, 마지막으로 John이 도착했습니다.
 
     '
-- answer: 'Hello! I''m here to help you understand the order of arrival at a celebration.
-    Let''s analyze the situation step by step:
+  question: '내가 파티를 갔다고 가정해보자. 나는 John보다 일찍 도착했어. David는 내가 도착한 이후에 왔어.
+    Joe는 나보다 일찍 왔어. John은 David가 도착한 이후에 도착했어. 누가 가장 일찍 파티에 도착했고, 누가 가장 늦게 파티에 도착했을까?
+    '
+- answer: '안녕하세요! 저는 행사에 도착한 사람들의 순서를 이해하는데 도움을 주려고 합니다.
+    순차적으로 상황을 분석해볼게요: 
 
 
-    1. Emma reached first (before Peter).
+    1. Emma가 제일 일찍 행사에 도착했습니다. (Peter 전에).
 
-    2. Peter arrived next.
+    2. Peter가 그 다음으로 도착했습니다.
 
-    3. Sophia arrived after Peter.
+    3. Sophia가 Peter 다음으로 도착했습니다.
 
-    4. Olivia reached last (after Sophia).
+    4. Olivia가 마지막으로 도착했습니다. (Sophia 다음으로).
 
 
-    Based on this information, Emma was the first one to arrive at the celebration,
-    followed by Peter, then Sophia, and finally Olivia.
+    해당 정보로 미루어보아,Emma는 행사아ㅔ 가장 먼저 도착한 사람입니다. 
+    그 이후에 Peter, Sophia, 그리고 마지막으로 Olivia가 도착했습니다.
 
     '
-  question: At a celebration, Peter came in before Olivia. Sophia arrived after. Emma
-    got there before Peter. Olivia arrived after Sophia. Who reached first, and who
-    reached last?
-- answer: 'Hello! I''m here to help you understand the order of photos in a photography
-    competition. Let''s analyze the situation step by step:
+  question: 행사에서 Peter는 Olivia 전에 도착했습니다. Sophia는 그 다음에 도착한 사람입니다. Emma는
+    Peter 전에 도착하였습니다. Olivia는 Sophia 다음으로 도착했습니다. 누가 가장 먼저 행사에 도착했고, 누가
+    가장 마지막으로 행사에 도착했나요?
+- answer: '안녕하세요! 사진 콘테스트의 사진 촬영 순서를 이해하도록 도와드리겠습니다. 
+    상황을 단계별로 분석해 봅시다:
 
+    1. Emily가 가장 먼저 (James 이전에) 사진을 찍었습니다.
 
-    1. Emily captured her photo first (before James).
+    2. 다음으로 James가 사진을 찍었습니다.
 
-    2. James captured a photo next.
+    3. James 이후에 Alex가 사진을 찍었습니다.
 
-    3. Alex entered with a photo after James.
+    4. 마지막으로 (Alex 이후에) Sarah가 사진을 찍었습니다.
 
-    4. Sarah submitted her photo last (after Alex).
-
-
-    Based on this information, Emily''s photo was captured first, followed by Jame''s
-    entry, then Alex''s photo, and finally Sarah''s submission.
+    이 정보를 바탕으로 Emily가 사진이 가장 먼저 찍었으며, 그 다음으로 James, 
+    그 다음은 Alex, 마지막으로 Sarah의 사진 촬영이 있었습니다.
 
 
     '
-  question: 'In a photography competition, James captured a photo before Sarah. Alex''s
-    entry came after. Emily took a photo before James. Sarah submitted her photo after
-    Alex. Whose photo was captured first, and whose photo was captured last?
+  question: '사진 경연 대회에서, James는 Sarah 이전에 사진을 촬영했습니다. Alex의
+    촬영이 그 이후에 있었습니다. Emily는 James 전에 사진을 찍었습니다. Sarah는 Alex가 제출한 후에 사진을 제출했습니다. 
+    누구가 사진을 가장 먼저 찍었고, 누가 사진을 가장 마지막으로 찍었습니까?
 
     '
-task_description: "To teach a language model about chronological order of time. \n"
+task_description: "언어 모델에게 시간 순서에 대해 가르치기."

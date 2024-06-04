@@ -1,25 +1,23 @@
-created_by: IBM
+created_by: IBM Korea CE Team
 seed_examples:
-- answer: 'The list contains two distinct colors - blue and pink.
+- answer: '리스트에는 두 가지 색상이 있습니다 - 파란색과 분홍색.
 
     '
-  question: 'How many colors are there in this list: four, five, twenty six, blue,
-    alpha, pink.
+  question: '이 목록에서 색상으로 분류되는 것은 몇 개입니까: 네 개, 다섯 개, 스물여섯 개, 파란색,
+    알파, 분홍색.
 
     '
-- answer: 'There are 2 human body parts: Bone and tongue.  Depending on if you consider
-    nails to be fingernails, then you could also include them as a third body part.
+- answer: '사람의 신체 부위는 2개입니다: 뼈와 혀. 만약 당신이 손톱을 사람의 손에 달린 손톱으로 고려한다면, 세 번째 신체 부위로 포함시킬 수도 있습니다.
 
     '
-  question: 'How many human body parts in this list and what are they: bone, table,
-    moon, tongue, mercury, postulate, America, nails.'
-- answer: "The following items in the list are associated with both humans and animals:\
-    \ intestine, cheating. \n"
-  question: 'In the list which items are associated with both humans and animals:
-    wisdom, utility, microscope, intestine, cheating, divorce, pulling, magnetism,
-    space, ludo, axiom?
+  question: '이 목록에서 사람의 신체 부위는 몇 개이며 그것들은 무엇입니까: 뼈, 테이블,
+    달, 혀, 수은, 공리, 아메리카, 손톱.'
+- answer: "리스트에 언급된 항목들 중 인간과 동물 모두와 관련이 있는 것은 다음과 같습니다: 장, 속임수. \n"
+  question: '이 목록 중 인간과 동물 모두와 관련된 항목은 무엇입니까:
+    지혜, 유틸리티, 현미경, 장, 속임수, 이혼, 끌기, 자력,
+    우주, 루도, 공리?
 
     '
-task_description: 'To teach a language model about Object identification
+task_description: '언어 모델에게 객체 식별에 대해 가르치기
 
   '

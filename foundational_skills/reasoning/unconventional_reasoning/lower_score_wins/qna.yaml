@@ -1,29 +1,24 @@
 created_by: IBM
 seed_examples:
-- answer: 'No that is incorrect, In golf, the objective is to score as few points
-    as possible through various methods such as driving, chipping, and putting. The
-    player with the lowest score at the end of the round wins.
+- answer: '아니요 틀립니다. 골프에서는 드라이빙, 치핑, 퍼팅 등 다양한 방법을 통해 
+    가능한 한 적은 점수를 얻는 것이 목표입니다. 라운드가 끝날 때 가장 낮은 점수를 가진 선수가 승리합니다.
 
     '
-  question: 'Part of golf is trying to get a higher point total than others. Yes or
-    No?
+  question: '골프의 목표 중 하나는 다른 사람들보다 더 높은 점수를 얻는 것입니다. 맞습니까?
 
     '
-- answer: "In rummy, the player with the lowest score wins. \n"
-  question: In the card game rummy does the player with the highest score or the lowest
-    score win.
-- answer: 'In most running competitions, including marathons, the winner is the runner
-    who completes the racecourse in the shortest amount of time. So, in this case,
-    the runner with a time of 4 hours and 20 minutes would win because they completed
-    the race faster than the runner with a time of 4 hours and 30 minutes.
+- answer: "럼미에서는 점수가 가장 낮은 선수가 승리합니다.\n"
+  question: 카드 게임 럼미에서는 가장 높은 점수를 가진 선수가 승리하나요, 아니면 가장 낮은 점수를 가진 선수가 승리하나요?
+- answer: '마라톤을 포함한 대부분의 달리기 경기에서, 우승자는 
+    경주 코스를 가장 빠른 시간 안에 완주하는 선수입니다. 따라서 이 경우,
+    4시간 20분만에 경주를 완료한 선수가 4시간 30분만에 경주를 완주한 선수보다 빠른 시간 안에 완주했으므로 승리합니다.
 
     '
-  question: 'one runner has a time of 4h 30 and another a time of 4h 20, which one
-    wins?
+  question: '한 선수의 기록이 4시간 30분이고 다른 선수의 기록이 4시간 20분인 경우, 어느 선수가 승리합니까?
 
     '
-task_description: 'To teach a language model about  how different activities have
-  different performance measures and lower scores win in many sports, eg running,
-  golf and shooting.
+task_description: '언어 모델에게 여러 활동들이 
+  어떠한 다른 성과 척도를 가지고 있으며 많은 스포츠에서 낮은 점수가 승리한다는 것을 가르치기
+  예시. 달리기, 골프
 
   '

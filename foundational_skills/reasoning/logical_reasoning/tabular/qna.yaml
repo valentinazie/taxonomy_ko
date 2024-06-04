@@ -1,53 +1,48 @@
-created_by: IBM
+created_by: IBM Korea CE Team
 seed_examples:
-- answer: "To predict the next value in the temperature sequence, we can look at the\
-    \ pattern in the previous values. The differences between consecutive temperatures\
-    \ are:\n\n2 (day 2 - day 1)\n3 (day 3 - day 2)\n3 (day 4 - day 3)\n4 (day 5 -\
-    \ day 4)\n\nThis increasing difference suggests that the temperature will continue\
-    \ to increase. To find the next temperature, we can add the difference from day\
-    \ 4 to the temperature of day 4:\n\nNext temperature = Day 4 temperature + Difference\n\
-    = 28 \xB0C + 3 \xB0C\n= 31 \xB0C\n\nTherefore, the next value in the sequence\
-    \ is 31 degrees Celsius.\n"
-  question: "Given the following table, predict the next value in the sequence:\n\n\
-    Day\tTemperature (\xB0C)\n1\t20\n2\t22\n3\t25\n4\t28\n5\t?\n\n"
-- answer: 'North: Product A
+- answer: "온도 순서에서 다음 값을 예측하기 위해 이전 값들의 패턴을 살펴볼 수 있습니다. \
+    \ 연속된 온도 사이의 차이는 다음과 같습니다:\n\n \
+    \ 2 (2일 - 1일)\n3 (3일 - 2일)\n3 (4일 - 3일)\n4 (5일 - 4일)\n\n이 \
+    \ 증가하는 차이는 온도가 계속 증가할 것임을 시사합니다. \
+    \ 다음 온도를 찾기 위해 4일차의 차이를 4일차의 온도에 더할 수 있습니다:\
+    \ \n\n다음 온도 = 4일차 온도 + 차이\n= 28°C + 3°C\n= 31°C\n\n \
+    \ 따라서 순서의 다음 값은 31도 섭씨입니다.\n"
+  question: "다음 표를 보고 순서의 다음 값을 예측하세요:\n\n\
+  일\t온도 (°C)\n1\t20\n2\t22\n3\t25\n4\t28\n5\t?\n\n"
+- answer: '북부: 제품 A
 
-    South: Product C
+    남부: 제품 C
 
-    East: Product A
+    동부: 제품 A
 
-    West: Product C
+    서부: 제품 C
 
     '
-  question: "You're an analyst examining the performance of a retail company's product\
-    \ lines across different regions. Analyze the sales data provided in the table\
-    \ below and identify the best-performing product line in each region. For example\
-    \ the best performing product in North is Product B. Similarly identify for other\
-    \ regions as well.\n\nRegion\tProduct A Sales (in $)\tProduct B Sales (in $)\t\
-    Product C Sales (in $)\nNorth\t$10,000\t                            $12,000\t\
-    \                             $9,000\nSouth      $8,000\t                    \
-    \        $10,000\t                             $11,000\nEast\t        $11,000\t\
+  question: "당신은 소매 회사의 제품 라인이 다양한 지역에서 어떻게 수행되고 있는지 분석하는 분석가입니다. \
+    \ 아래 표에 제공된 판매 데이터를 분석하고 각 지역에서 가장 성능이 좋은 제품 라인을 식별하세요. \
+    \ 예를 들어, 북부에서 가장 성능이 좋은 제품은 제품 B입니다. 마찬가지로 다른 지역도 식별하세요.\
+    \ \n\n지역\t제품 A 판매(달러)\t제품 B 판매(달러)\t\
+    제품 C 판매 (달러)\북부\t$10,000\t                            $12,000\t\
+    \                             $9,000\n남부      $8,000\t                    \
+    \        $10,000\t                             $11,000\n동부\t        $11,000\t\
     \                            $9,000\t                                     $10,000\n\
-    West\t$9,000\t                            $11,000\t                          \
+    서부\t$9,000\t                            $11,000\t                          \
     \   $12,000"
-- answer: 'To calculate the total number of fruits bought on each day we first sum
-    up the number of fruits bought in each day.
+- answer: '각 날짜별로 구매한 과일의 총 수를 계산하기 위해
+    각 날짜별로 구매한 과일 수를 더합니다.
 
-    Total fruits for A = 5 (Day 1) + 8 (Day 2) + 4 (Day 3) = 17
+    A의 총 과일 = 5 (Day 1) + 8 (Day 2) + 4 (Day 3) = 17
 
-    Total fruits for B = 3 (Day 1) + 6 (Day 2) + 7 (Day 3) = 16
+    B의 총 과일 = 3 (Day 1) + 6 (Day 2) + 7 (Day 3) = 16
 
-    Total fruits for C = 2 (Day 1) + 5 (Day 2) + 6 (Day 3) = 13
+    C의 총 과일 = 2 (Day 1) + 5 (Day 2) + 6 (Day 3) = 13
 
 
-    Hence on Day 3 the lowest number of fruits were bought.
+    따라서 3일째에 가장 적은 수의 과일이 구매되었습니다.
 
     '
-  question: "Consider the following table representing the number of fruits bought\
-    \ by three different people (A, B, C) at a fruit stall over three days (Day 1,\
-    \ Day 2, Day 3):\n\nPerson\tDay 1\tDay 2\tDay 3\nA\t5\t8\t4\nB\t3\t6\t7\nC\t2\t\
-    5\t6\nOn which day lowest number of fruits were brought?\n"
-task_description: 'To teach a language model about logical reasoning using tabular
-  data
-
-  '
+  question: "다음 표는 세 명의 사람들(A, B, C)이 \
+    \ 과일 가판대에서 세 날(1일, 2일, 3일) \
+    \ 동안 구매한 과일 수를 나타냅니다:\n\n사람\t1일\t2일\t3일\nA\t5\t8\t4\nB\t3\t6\t7\nC\t2\t\
+    \ 5\t6\n어느 날 가장 적은 수의 과일이 구매되었나요?\n"
+task_description: '타블러 데이터를 사용하여 언어 모델에 논리적 추론을 가르치기

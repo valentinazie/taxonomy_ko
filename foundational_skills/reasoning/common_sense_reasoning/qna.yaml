@@ -1,28 +1,30 @@
-created_by: IBM
+
+# Translate original English text to Korean
+created_by: IBM Korea CE Team
 seed_examples:
-- answer: "The answer is 3 killers. A person comes into the room and kills one of\
-    \ the 3 killers, so 2 of the 3 killers remain. However the new person, having\
-    \ killed one of the killers, is now a killer. Hence there are 3 killers in the\
-    \ room. \n"
-  question: 'There are 3 killers in a room. A new person comes into the room and kills
-    one of the 3 people. How many killers are in the room now? Explain the answer
-    step by step.
+- answer: "답은 3명의 살인자입니다. 한 사람이 방에 들어와 3명의 살인자 중 한 명을 죽이므로 3명 중 2명이 남습니다. \
+      그러나 새로운 사람이 살인자 중 한 명을 죽였기 때문에 이제 그 사람도 살인자가 됩니다. \
+      따라서 방에는 살인자가 3명 있습니다.\n"
+  question: '방에 3명의 살인자가 있습니다. 새로운 사람이 방에 들어와 3명 중 한 명을 죽입니다.
+      이제 방에는 몇 명의 살인자가 있습니까?
+      답을 단계별로 설명하세요.
 
     '
-- answer: 'The answer is 4 hours. Since I am drying the shirts in the sun, it does
-    not matter if I dry 4 or 8 shirts, it will take the same amount of time.
+- answer: '답은 4시간입니다. 햇볕에 셔츠를 말리고 있기 때문에 \
+      셔츠를 4개나 8개를 말린다 해도 걸리는 시간은 동일합니다.
 
     '
-  question: I am drying some shirts in a wide open space in the sun. If it takes 4
-    hours to dry 4 shirts, how many hours does it take to dry 8 shirts?
-- answer: 'The ball is now in the box. Jack put the ball in the basket. After he left,
-    Jill put the ball in the box, so it is now in the box.
+  question: 햇볕이 잘 드는 넓은 곳에서 셔츠를 말리고 있습니다.
+      4개의 셔츠를 말리는 데 4시간이 걸린다면, 
+      8개의 셔츠를 말리는 데는 몇 시간이 걸릴까요?
+- answer: '공은 이제 상자 안에 있습니다. Jack은 공을 바구니에 넣었습니다. 
+    그가 떠난 후, Jill이 공을 상자에 넣었으므로 이제 공은 상자 안에 있습니다.
 
     '
-  question: "Jack and Jill are in a room with a ball, box, and a basket. Jack put\
-    \ the ball in the basket and then went to school. After Jack left, Jill put the\
-    \ ball in the box and went to school. Where is the ball now? Explain step by step.\
-    \ \n"
-task_description: 'To teach a language model about step by step reasoning
+  question: "Jack과 Jill이 공, 상자, 바구니가 있는 방에 있습니다. Jack은 공을 바구니에 넣고 학교에 갔습니다.\
+      Jack이 떠난 후, Jill이 공을 상자에 넣고 학교에 갔습니다. \
+      지금 공은 어디에 있나요? 단계별로 설명하세요.\
+      \ \n"
+task_description: '언어 모델에게 단계별 추론에 대해 가르치기
 
   '

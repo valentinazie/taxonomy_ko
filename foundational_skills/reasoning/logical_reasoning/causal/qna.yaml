@@ -1,26 +1,19 @@
-created_by: IBM
+created_by: IBM Korea CE Team
 seed_examples:
-- answer: 'While days tend to be longer in the summer, just because it is not summer
-    doesn''t mean days are necessarily shorter.
+- answer: '여름에는 날이 길어지는 경향이 있지만, 여름이 아니라고 해서 반드시 날이 짧아진다는 의미는 아닙니다.
 
     '
-  question: 'If it is summer, then the days are longer. Are the days longer if it
-    is not summer ?
+  question: '여름이면 날이 길어집니다. 여름이 아닐 때도 날이 길어지나요?
 
     '
-- answer: 'No, we cannot conclusively conclude that some cats are black based solely
-    on the given premises. The statement "some mammals are black" does not necessarily
-    guarantee that among those mammals are cats.
+- answer: '주어진 전제만으로는 일부 고양이가 검은색이라고 결론 지을 수 없습니다. "일부 포유류는 검은색이다"라는 명제는 그 포유류 중에 고양이가 포함되어 있다는 것을 반드시 보장하지 않습니다.
 
     '
-  question: If all cats are mammals and some mammals are black, can we conclude that
-    some cats are black?
-- answer: 'Yes, we can conclude that all squares have four sides based on the given
-    premises.
+  question: 모든 고양이가 포유류이고 일부 포유류가 검은색이라면, 일부 고양이가 검은색이라고 결론 지을 수 있나요?
+- answer: '주어진 전제를 바탕으로 모든 정사각형이 네 변을 가지고 있다는 결론을 내릴 수 있습니다.
 
     '
-  question: 'If all squares are rectangles and a rectangle has four sides, can we
-    conclude that all squares have four sides?
+  question: '모든 정사각형이 직사각형이고 직사각형이 네 변을 가지고 있다면, 모든 정사각형이 네 변을 가지고 있다고 결론 지을 수 있나요?
 
     '
-task_description: To teach a language model about Logical Reasoning - causal relationships
+task_description: 언어 모델에게 인과 관계에 대한 논리적 추론을 가르치기

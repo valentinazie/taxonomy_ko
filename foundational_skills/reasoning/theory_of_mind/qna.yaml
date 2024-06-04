@@ -1,84 +1,69 @@
-created_by: IBM
+created_by: IBM Korea CE Team
 seed_examples:
-- answer: "Sarah placed her shoes under her dress before she went shopping. Her sister\
-    \ borrowed the shoes and put them under Sarah\u2019s bed. Sarah doesn\u2019t know\
-    \ that her sister borrowed her shoes. Therefore, the answer is yes, she assumes\
-    \ that the shoes are still under her dress.\n"
-  question: "Read the scenario and answer the following question: Scenario: \"The\
-    \ morning of the high school dance Sarah placed her high heel shoes under her\
-    \ dress and then went shopping. That afternoon, her sister borrowed the shoes\
-    \ and later put them under Sarah\u2019s bed.\" Question: When Sarah gets ready,\
-    \ does she assume her shoes are under her dress?\n"
-- answer: 'When the Garcia family left, the game was tied, 3-3, and they expected
-    the game to be postponed due to the rain. So, they don''t know that the game ended
-    during their commute with a score of 5-3. Therefore, the answer is no, they don''t
-    believe the score is 5-3.
+- answer: "Sarah는 쇼핑을 가기 전에 그녀의 드레스 아래에 신발을 두었습니다. 그녀의 여동생이\
+    \ 신발을 빌려 Sarah의 침대 아래에 두었습니다. Sarah는 여동생이 신발을 빌렸다는 것을 모릅니다. 따라서,\
+    \ 그녀는 신발이 여전히 그녀의 드레스 아래에 있다고 생각합니다.\n"
+  question: "시나리오를 읽고 다음 질문에 답하세요: 시나리오: \"고등학교 무도회 아침에 Sarah는\
+    \ 그녀의 하이힐을 드레스 아래에 두고 쇼핑을 갔습니다. 그 오후, 그녀의 여동생은 그 신발을 빌리고 나중에\
+    \ Sarah의 침대 아래에 두었습니다.\" 질문: Sarah가 준비하는 시점에, 그녀는 그녀의 신발이 드레스 아래에 있다고\
+    \ 생각합니까?\n"
+- answer: 'Garcia 가족이 떠났을 때, 경기는 3-3으로 동점이었고, 그들은 비로 인해 경기가 연기될 것으로\
+    \ 예상했습니다. 그래서 그들은 경기가 그들의 통근 중에 5-3으로 끝났다는 것을 모릅니다. 따라서, 그들은\
+    \ 점수가 5-3이라는 것을 알지 못합니다. \n'
+  question: '시나리오를 읽고 다음 질문에 답하세요: 시나리오: "비로 인해 경기가 연기될 것으로\
+    \ 예상하며, Garcia 가족은 지하철을 타고 집으로 돌아갔습니다. 경기는 3-3으로 중단되었습니다. 그들이 돌아가는 길에 비가 그쳤고, 경기는\
+    \ 5-3으로 마무리되었습니다." 질문: Garcia 가족이 집에 도착할 시점에, 그들은 점수가 5-3이라고 믿습니까?'
+- answer: 'Lisa가 Jacob을 떠났을 때, 그는 해변에서 잠들어 있었습니다. 그래서, Lisa는 Jacob이\
+    \ 일어나서 수영을 갔다는 것을 모릅니다. 따라서, 그녀는 Jacob이 여전히 해변에서 잠들어 있다고 믿습니다.\n'
+  question: '시나리오를 읽고 다음 질문에 답하세요: 시나리오: "Lisa가 Jacob을 떠났을 때, 그는\
+    \ 해변에서 깊은 잠에 빠져 있었습니다. 몇 분 후, 파도가 그를 깨우고, 그는 수영을 하러 갔습니다." 질문:\
+    \ Lisa가 떠난 후, Jacob은 여전히 잠들어 있다고 Lisa는 믿습니까?'
+
+- answer: 'Pam이 하루종일 일하고 있었기 때문에, 그녀는 튤립이 
+    그녀의 뒷마당에 갑자기 만개했다는 사실을 알지 못합니다. 따라서 정답은 아니오이며, 집에 오는 길에
+    그녀는 튤립이 활짝 피었다는 사실을 알지 못합니다. 
 
     '
-  question: 'Read the scenario and answer the following question: Scenario: "Expecting
-    the game to be postponed because of the rain, the Garcia family took the subway
-    home. The score was tied, 3-3. During their commute the rain stopped, and the
-    game soon ended with a score of 5- 3." Question: When the Garcia family arrives
-    home, do they believe the score is 5-3?'
-- answer: 'When Lisa left Jacob, he was asleep on the beach. So, Lisa doesn''t know
-    that Jacob woke up and went swimming. Therefore, the answer is yes, Lisa believes
-    that Jacob is still asleep on the beach.
+  question: "시나리오의 내용을 읽고 이어지는 질문에 답하시오: 시나리오: \"오늘의\
+    \ 날씨는 너무 따듯해서 Pam의 집 뒷마당에 피어있던 튤립들이 갑자기 모두 만개했습니다. \
+    \ 하지만 여전히 Pam의 사무실 주변에 피어있는 튤립들은 아직 피지 않았습니다.\
+    \ Pam은 하루종일 회사에서 일을 했습니다.\" 질문: Pam이 일을 마치고 집으로 돌아올 떄,\
+    \ 그녀의 뒷마당에 튤립이 만개했을거라고 생각할까요? \n"
+- answer: '시나리오에서 Jeff는 흰색 셔츠 대신에 밝은 핑크색의 셔츠를 입었다고 언급하고 있습니다. 
+    그 말은, 그가 흰색 셔츠를 입고 싶었지만 그가 색맹이기 때문에 색의 비교를 분명히 하지 못했음을 의미하며
+    그래서 그가 실수로 밝은 핑크색 셔츠를 입었음을 의미합니다. 그는 밝은 핑크색 셔츠를 입고 있음을 알지 못합니다. 
+    따라서, 정답은 네 이며, 그는 흰색 셔츠를 입고 있다고 생각합니다. 
 
     '
-  question: 'Read the scenario and answer the following question: Scenario: "When
-    Lisa left Jacob, he was deep asleep on the beach. A few minutes later a wave woke
-    him. Seeing Lisa was gone, Jacob decided to go swimming." Question: Does Lisa
-    now believe that Jacob is asleep?
+  question: "사나리오의 내용을 읽고 어어지는 질문에 답하시오: 시나리오: \"Jeff\
+    \ 가 오늘 아침 나갈 준비를 할 떄, 그는 흰색 셔츠 대신 밝은 핑크색의 셔츠를 입었습니다.\
+    \ Jeff는 색맹이기 때문에 색깔 사이의 명암 정도만 구분하는 수준입니다. \
+    \ \" 질문: Jeff는 본인이 흰색 셔츠를 입었다고 알고 있을까요?"
+- answer: '시나리오에 따르면 그 날 밤 실험실은 비어 있었습니다. 
+    따라서 그 날 밤 실험실에 사람 수는 0입니다.
+    
+    '
+  question: '시나리오을 읽고 다음 질문에 답하십시오: 시나리오: "침입자를 감지하기 위해, 
+    실험실은 음성을 녹음하는 자동 시스템을 사용합니다.어느 날 밤 실험실이 비어 있을 때, 
+    컴퓨터 오류가 발생하고 합성 음성이 오류 메시지를 읽었습니다." 
+    질문: 그 날 밤 실험실에 사람 수는 0입니까?
 
     '
-- answer: 'Since Pam has been at work all day, she doesn''t know that the tulips in
-    her backyard have suddenly bloomed. Therefore, the answer is no, when driving
-    home she doesn''t assume that her tulips have bloomed.
+- answer: "시나리오에서 1900년대 초반에 나라의 경제 성공이 기록되었다고 \
+    \ 언급되어 있습니다. 따라서, 1900년대 초반의 소설들이 나라가 경제적으로 부유했다고 \
+    묘사하고 있다고 답할 수 있습니다.\n"
+  question: "시나리오의 내용을 읽고 이어지는 질문에 답하시오: 시나리오: \"\
+    \ 1990년대 나라들의 경제 성공이 책으로 기록되어 있습니다.\
+    \ 그 후, 끔찍한 전염벙이 나라들을 강타했고, 결제적 혹한기를 겪게 됩니다. \
+    \ \" 질문: 1900년대 초에 만들어진 소설들은 국가들의 부흥을 소설 내용에 담아냈을까요?"
+- answer: '시나리오에 따르면, 정원의 일부분을 장미를 키우기 위해 비워두었고, 이를 표시하기 위하여
+    푯말을 세워두었습니다. 따라서, 정답은 네 이며, 푯말에는 꽃들이 장미라고 쓰여져있습니다.
 
     '
-  question: "Read the scenario and answer the following question: Scenario: \"The\
-    \ weather was so warm today that all the tulips in Pam\u2019s backyard suddenly\
-    \ bloomed. The tulips next to Pam\u2019s office still have not yet flowered, though.\
-    \ Pam has been at work all day.\" Question: When Pam is driving home after work,\
-    \ does she assume her tulips have bloomed?\n"
-- answer: 'The scenario mentions that Jeff put on a pink shirt instead of a white
-    one. This means he wanted to put on a white shirt but since he is colorblind and
-    can''t tell the difference, he mistakenly put on a pink shirt. He doesn''t know
-    we is wearing a pink short. Therefore, the answer is yes, he think he is wearing
-    a white shirt.
-
-    '
-  question: "Read the scenario and answer the following question: Scenario: \"When\
-    \ Jeff got ready this morning, he put on a light pink shirt instead of a white\
-    \ one. Jeff is colorblind, so he can\u2019t tell the difference between subtle\
-    \ shades of color.\" Question: Does Jeff believe he is wearing a white shirt?"
-- answer: 'The scenario mentions that the lab was empty that night. Therefore, the
-    answer is yes, the number of people in the lab that night is zero.
-
-    '
-  question: 'Read the scenario and answer the following question: Scenario: "To detect
-    intruders, the lab uses an automated system for recording voices. In the empty
-    lab one night, a computer error occurs and a synthetic voice reads the error message."
-    Question: Is the number of people in the lab that night zero?
-
-    '
-- answer: "The scenario mentions that the country\u2019s economic success were recorded\
-    \ in books from the early 1900s. Therefore, the answer is yes, early 1900s novels\
-    \ portray the country as experiencing economic wealth.\n"
-  question: "Read the scenario and answer the following question: Scenario: \"Accounts\
-    \ of the country\u2019s economic success were recorded in books from the early\
-    \ 1900s. Soon after, a horrible plague hit the country, and the country was sent\
-    \ into an economic depression.\" Question: Do early 1900s novels portray the country\
-    \ as experiencing economic wealth?"
-- answer: 'The scenario mentions that a part of garden is reserved for roses and it
-    has a label showing that. Therefore, the answer is yes, the label say the flowers
-    are roses.
-
-    '
-  question: "Read the scenario and answer the following question: Scenario: \"Part\
-    \ of the garden is supposed to be reserved for the roses; it\u2019s labeled accordingly.\
-    \ Recently the garden has run wild, and dandelions have taken over the entire\
-    \ flower bed.\" Question: Does the label say these flowers are roses?\n"
-task_description: 'To teach a language model about theory-of-mind reasoning
+  question: "시나리오를 읽고 다음 질문에 답하시오: 시나리오: \"정원의\
+    \ 일부는 장미를 키우기 위해 비워두었고, 이를 표현하기 위해 푯말을 세워두었습니다. \
+    \ 최근, 정원이 방치되는 탓에 정원이 모두 민들레로 뒤덯였습니다. \
+    \ \" 질문: 푯말에는 이 꽃들이 장미라고 쓰여져있나요?\n"
+task_description: '언어 모델에게 이론적 추론에 대해 가르치기
 
   '

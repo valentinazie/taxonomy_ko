@@ -1,54 +1,94 @@
-created_by: IBM Research
+# created_by: IBM Research
+# domain: history
+# seed_examples:
+#   - answer: Thomas J. Watson's vision and leadership strategies had a profound
+#       impact on IBM's growth and corporate culture. He envisioned a unified
+#       company with a strong culture, focused on the tabulating machine, and
+#       de-emphasized less promising technologies. Under his leadership, IBM
+#       doubled its revenue within four years, expanded internationally, and later
+#       rebranded as International Business Machines in 1924. Watson instilled
+#       philosophies of globalism, equal pay for equal work, and the imperative to
+#       always "think," which remain core to IBM's identity.
+#     question: How did Thomas J. Watson's vision and leadership strategies impact
+#       IBM's growth and corporate culture?
+#   - answer: " D) Charles Ranlett Flint was a financier and businessman who
+#       facilitated the merger of the International Time Recording Company, the
+#       Computing Scale Company, and the Tabulating Machine Company in 1911, while
+#       Thomas J. Watson was a salesman who joined the company as general manager
+#       in 1914 and later became president, focusing resources on the tabulating
+#       machine and expanding operations internationally."
+#     question: >
+#       Which of the following statements accurately describes the role of
+
+#       Charles Ranlett Flint and Thomas J. Watson in the formation and early
+
+#       success of IBM? A) Charles Ranlett Flint was a financier and businessman
+
+#       who founded the Computing-Tabulating-Recording Company (later IBM) in
+
+#       1911, while Thomas J. Watson was a salesman who joined the company as
+
+#       general manager in 1914 and later became president, focusing resources on
+
+#       the tabulating machine and expanding operations internationally.
+
+
+#       B) Charles Ranlett Flint was a financier and businessman who founded the Computing-Tabulating-Recording Company (later IBM) in 1911 and served as its president, while Thomas J. Watson was a salesman who joined the company as a branch manager at the National Cash Register and later became a manager at C-T-R.
+
+
+#       C) Charles Ranlett Flint was a financier and businessman who founded the Computing-Tabulating-Recording Company (later IBM) in 1911 and served as its CEO, while Thomas J. Watson was a salesman who joined the company as general manager in 1914 and later became president, focusing resources on the tabulating machine and expanding operations internationally.
+
+
+#       D) Charles Ranlett Flint was a financier and businessman who facilitated the merger of the International Time Recording Company, the Computing Scale Company, and the Tabulating Machine Company in 1911, while Thomas J. Watson was a salesman who joined the company as general manager in 1914 and later became president, focusing resources on the tabulating machine and expanding operations internationally.
+#   - answer: After its formation, the Computing-Tabulating-Recording Company faced
+#       significant debt and resistance from managers of the merged companies who
+#       were resentful of the merger and resisted full integration. To overcome
+#       these challenges, Charles Flint recognized the need for a uniting force
+#       and a charismatic leader, leading to the hiring of Thomas J. Watson as
+#       general manager, who later became president and refocused the company
+#       towards success.
+#     question: Describe the challenges the Computing-Tabulating-Recording Company
+#       faced shortly after its formation and how these were overcome.
+# task_description: ""
+# document:
+#   repo: https://github.com/abhi1092/ibm-history-documents
+#   commit: 1dc85d0fc19e21ad8adbf5f98bd8aa1e31257d0a
+#   patterns:
+#     - ibm*.md
+#     - origins_of_ibm*.md
+
+# Translate original English text to Korean
+created_by: IBM Korea CE Team
 domain: history
 seed_examples:
-  - answer: Thomas J. Watson's vision and leadership strategies had a profound
-      impact on IBM's growth and corporate culture. He envisioned a unified
-      company with a strong culture, focused on the tabulating machine, and
-      de-emphasized less promising technologies. Under his leadership, IBM
-      doubled its revenue within four years, expanded internationally, and later
-      rebranded as International Business Machines in 1924. Watson instilled
-      philosophies of globalism, equal pay for equal work, and the imperative to
-      always "think," which remain core to IBM's identity.
-    question: How did Thomas J. Watson's vision and leadership strategies impact
-      IBM's growth and corporate culture?
-  - answer: " D) Charles Ranlett Flint was a financier and businessman who
-      facilitated the merger of the International Time Recording Company, the
-      Computing Scale Company, and the Tabulating Machine Company in 1911, while
-      Thomas J. Watson was a salesman who joined the company as general manager
-      in 1914 and later became president, focusing resources on the tabulating
-      machine and expanding operations internationally."
+  - answer: 토마스 J. 왓슨의 비전과 리더십 전략은 IBM의 성장과 기업 문화에 큰 영향을 미쳤습니다. 
+      그는 강력한 문화를 가진 통합된 회사를 구상하였고, 집계기계에 중점을 두었으며 덜 유망한 기술은 중시하지 않았습니다. 
+      그의 리더십 하에 IBM은 4년 내에 매출이 두 배로 증가하였고, 국제적으로 확장하였으며 
+      나중에 1924년에 국제 비즈니스 머신으로 브랜드명을 변경하였습니다. 
+      왓슨은 글로벌리즘, 동일 노동 동일 임금, 그리고 항상 "생각하라"는 철학을 심어주었으며 
+      이는 IBM의 핵심 정체성으로 남아 있습니다.
+    question: 토마스 J. 왓슨의 비전과 리더십 전략이 IBM의 성장과 기업 문화에 어떤 영향을 미쳤나요?
+  - answer: " D) 찰스 랜렛 플린트는 국제 시간 기록 회사, 계산 규모 회사 및 집계기계 회사의 합병을 주도한 재정가 
+      및 사업가였으며, 토마스 J. 왓슨은 1914년에 일반 관리자로 회사에 합류하여 
+      나중에 회장이 되어 집계기계에 자원을 집중하고 국제적으로 활동을 확장하였습니다."
     question: >
-      Which of the following statements accurately describes the role of
+      다음 중 찰스 랜렛 플린트와 토마스 J. 왓슨의 IBM 설립과 초기 성공에서의 역할을 정확하게 설명하는 것은?
 
-      Charles Ranlett Flint and Thomas J. Watson in the formation and early
-
-      success of IBM? A) Charles Ranlett Flint was a financier and businessman
-
-      who founded the Computing-Tabulating-Recording Company (later IBM) in
-
-      1911, while Thomas J. Watson was a salesman who joined the company as
-
-      general manager in 1914 and later became president, focusing resources on
-
-      the tabulating machine and expanding operations internationally.
+      A) 찰스 랜렛 플린트는 1911년에 컴퓨팅-탭레코딩-레코딩 회사(나중에 IBM)를 설립한 재정가 및 사업가였고, 토마스 J. 왓슨은 1914년에 일반 관리자로 회사에 합류하여 나중에 회장이 되어 집계기계에 자원을 집중하고 국제적으로 활동을 확장하였습니다.
 
 
-      B) Charles Ranlett Flint was a financier and businessman who founded the Computing-Tabulating-Recording Company (later IBM) in 1911 and served as its president, while Thomas J. Watson was a salesman who joined the company as a branch manager at the National Cash Register and later became a manager at C-T-R.
+      B) 찰스 랜렛 플린트는 1911년에 컴퓨팅-탭레코딩-레코딩 회사(나중에 IBM)를 설립하고 회장으로 재직하였으며, 토마스 J. 왓슨은 국립 현금 등록기에서 지점 관리자로 합류한 후 C-T-R에서 관리자가 되었습니다.
 
 
-      C) Charles Ranlett Flint was a financier and businessman who founded the Computing-Tabulating-Recording Company (later IBM) in 1911 and served as its CEO, while Thomas J. Watson was a salesman who joined the company as general manager in 1914 and later became president, focusing resources on the tabulating machine and expanding operations internationally.
+      C) 찰스 랜렛 플린트는 1911년에 컴퓨팅-탭레코딩-레코딩 회사(나중에 IBM)를 설립하고 CEO로 재직하였으며, 토마스 J. 왓슨은 1914년에 일반 관리자로 회사에 합류하여 나중에 회장이 되어 집계기계에 자원을 집중하고 국제적으로 활동을 확장하였습니다.
 
 
-      D) Charles Ranlett Flint was a financier and businessman who facilitated the merger of the International Time Recording Company, the Computing Scale Company, and the Tabulating Machine Company in 1911, while Thomas J. Watson was a salesman who joined the company as general manager in 1914 and later became president, focusing resources on the tabulating machine and expanding operations internationally.
-  - answer: After its formation, the Computing-Tabulating-Recording Company faced
-      significant debt and resistance from managers of the merged companies who
-      were resentful of the merger and resisted full integration. To overcome
-      these challenges, Charles Flint recognized the need for a uniting force
-      and a charismatic leader, leading to the hiring of Thomas J. Watson as
-      general manager, who later became president and refocused the company
-      towards success.
-    question: Describe the challenges the Computing-Tabulating-Recording Company
-      faced shortly after its formation and how these were overcome.
+      D) 찰스 랜렛 플린트는 국제 시간 기록 회사, 계산 규모 회사 및 집계기계 회사의 합병을 주도한 재정가 및 사업가였으며, 토마스 J. 왓슨은 1914년에 일반 관리자로 회사에 합류하여 나중에 회장이 되어 집계기계에 자원을 집중하고 국제적으로 활동을 확장하였습니다.
+  - answer: 컴퓨팅-탭레코딩-레코딩 회사가 설립된 후 상당한 부채와 합병된 회사들의 관리자들이 합병을 반대하고 
+      완전한 통합을 거부하는 저항에 직면했습니다. 이러한 도전을 극복하기 위해 찰스 플린트는 
+      통합적인 힘과 카리스마 있는 리더가 필요하다고 인식하고 토마스 J. 왓슨을 일반 관리자로 고용하였고, 
+      그는 나중에 회장이 되어 회사를 성공으로 이끌었습니다.
+    question: 컴퓨팅-탭레코딩-레코딩 회사가 설립 직후 직면한 도전과 이를 극복한 방법을 설명하시오.
 task_description: ""
 document:
   repo: https://github.com/abhi1092/ibm-history-documents
